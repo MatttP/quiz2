@@ -1,0 +1,2 @@
+class Nightmare < ApplicationRecord
+end
