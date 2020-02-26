@@ -1,0 +1,77 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+@import url('https://fonts.googleapis.com/css?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+body {
+  background: image_url('dark-honeycomb.png');
+}
+
+.clear {
+  clear: both;
+}
+
+.circle {
+  font-family: 'Trade Winds', ;
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  border-radius: 100%;
+  background: #f84342;
+  border: 1px solid #F7F7F7;
+  width: 80px;
+  height: 80px;
+  margin: 10px 10px;
+  text-align: center;
+  color: rgba(53, 37, 37, 0.6);
+  font-size: 18px;
+  line-height: 16px;
+  cursor: pointer;
+  transform: rotate(11deg);
+  -ms-transform: rotate(11deg);
+  -webkit-transform: rotate(11deg);
+}
+
+.slogan {
+  font-family: 'Trade Winds', ;
+  color: rgb(192, 104, 4);
+  font-style: italic;
+  padding-top: 26px;
+}
+
+.links {
+  padding-top: 26px;
+
+  a {
+    color: black;
+    font-size: 25px;
+    border-bottom: 1px solid #dfdfdf;
+  }
+}
+
+header {
+  border-top: 9px solid #222222;
+}
+
+hr {
+  clear:both;
+}
+
+h1 {
+  font-family: 'Nosifer', ;
+  color: rgb(165, 9, 9);
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-family: 'Trade Winds', ;
+  color: rgb(165, 9, 9);
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+.next-quote {
+  color:#f84342;
+  font-family: 'Nosifer', ;
+}
