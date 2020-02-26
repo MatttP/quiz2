@@ -32,6 +32,10 @@ body {
   -webkit-transform: rotate(11deg);
 }
 
+.logo:hover {
+  text-decoration: none;
+}
+
 .slogan {
   font-family: 'Trade Winds', ;
   color: rgb(192, 104, 4);
@@ -43,9 +47,10 @@ body {
   padding-top: 26px;
 
   a {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 25px;
     border-bottom: 1px solid #dfdfdf;
+    text-decoration: none;
   }
 }
 
@@ -67,7 +72,7 @@ h1 {
 h2 {
   font-family: 'Trade Winds', ;
   color: rgb(165, 9, 9);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: -1.5px;
 }
 

@@ -1,0 +1,7 @@
+<h1>Describe your nightmare here! ( Keep it PG-13 y'all )</h1>
+<%= simple_form_for @nightmare do |f| %>
+  <%= f.input :saying %>
+  <%= f.input :author %>
+  <br />
+  <%= f.submit 'Dream', class: 'btn btn-warning'%>
+<% end %>
